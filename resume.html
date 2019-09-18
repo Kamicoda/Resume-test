@@ -13,12 +13,11 @@
 </head>
 
 <body>
+	<!-- HEADER _____________________________________________________-->
 	<header class="">
-		<!-- just some content -->
 		<div class="row no-gutters">
-			<a href="index.html" class="col-md-4 logo">
-				
-			</a>
+			<a href="index.html" class="col-md-4 logo"></a>
+			
 			<div class="col-md-8 col-lg-8">
 				<div class="row bg-name-color-title no-gutters">
 					<div class="col heading">
@@ -26,34 +25,32 @@
 						<h2 class="title"> student full-stack developer</h2>
 					</div>
 				</div>
-				<!-- ___________________________________________________________________________-->
-				<!-- NAVIGATION BUTTONS BELOW -->
+				<!-- NAVIGATION BUTTONS___________________________________________________________________________-->
 				<div class="row no-gutters">
 					<div class="col">
 						<ul id="nav" class="list-inline menucontainer">
 
 							<!-- HOME BUTTON -->
 							<li class="col-6 col-sm-3 ui-menu-color-home list-inline-item menuitem">
-								<a href="#" class="hvr-icon-grow"><i class="fas fa-home hvr-icon" aria-hidden="true"></i><span>Home</span></a>
+								<a href="index.html" class="hvr-icon-grow"><i class="fas fa-home hvr-icon" aria-hidden="true"></i><span>Home</span></a>
 							</li>
 
 							<!-- RESUME BUTTON -->
 							<li class="col-6 col-sm-3 ui-menu-color-resume list-inline-item menuitem">
-								<a href="#" class="hvr-icon-grow"><i class="fas fa-graduation-cap hvr-icon" aria-hidden="true"></i><span>Resume</span></a>
+								<a href="resume.html" class="hvr-icon-grow"><i class="fas fa-graduation-cap hvr-icon" aria-hidden="true"></i><span>Resume</span></a>
 							</li>
 
 							<!-- CONTACT BUTTON -->
 							<li class="col-6 col-sm-3 ui-menu-color-contact list-inline-item menuitem">
-								<a href="#" class="hvr-icon-grow"><i class="fas fa-comment hvr-icon" aria-hidden="true"></i><span>Contact</span></a>
+								<a href="contact.html" class="hvr-icon-grow"><i class="fas fa-comment hvr-icon" aria-hidden="true"></i><span>Contact</span></a>
 							</li>
 
 							<!-- DOWNLOAD BUTTON -->
 							<li class="col-6 col-sm-3 ui-menu-color-download list-inline-item menuitem">
-								<a href="#" class="hvr-icon-grow"><i class="fas fa-download hvr-icon" aria-hidden="true"></i><span>Download</span></a>
+								<a href="assets/cv/djcv.pdf" target="_blank" class="hvr-icon-grow"><i class="fas fa-download hvr-icon" aria-hidden="true"></i><span>Download</span></a>
 							</li>
 						</ul>
 					</div>
-					<!-- NAVIGETION BUTTONS ABOVE -->
 				</div>
 				<!-- ___________________________________________________________________________-->
 			</div>
@@ -62,7 +59,7 @@
 	</header>
 	<section class="container-fluid">
 		<div class="row row">
-			<div class="col-md-4 bg-color-personal-info section-column">
+			<div class="col-md-4 bg-color-work-history section-column">
 				<div class="row">
 					<div class="col-12">
 						<h3 class="section-heading uppercase">
@@ -70,8 +67,27 @@
 						</h3>
 					</div>
 				</div>
-
+				<div class="history-items">
+					<div class="timeline-item" data-dates="02/1998 - 04/2004">
+						<h4>National College of Art and Design (NCAD)</h4>
+						<p>Sculptor in residence</p>
+					</div>
+					<div class="timeline-item" data-dates="04/2004 - 06/2008">
+						<h4>Fisher and Diaz Funeral Directors</h4>
+						<p>Junior Embalmer</p>
+					</div>
+					<div class="timeline-item" data-dates="06/2008 - 06/2011">
+						<h4>Phantom Design Inc. Dublin</h4>
+						<p>Junior Front End Developer</p>
+					</div>
+					<div class="timeline-item" data-dates="06/2011 - Present">
+						<h4>Hooli Inc. Silicon Valley</h4>
+						<p>Full Stack Web Developer</p>
+					</div>
+				</div>
 			</div>
+
+			<!-- __________________________________________________________PROGRESS BARS____ -->
 			<div class="col-md-8 bg-color-three-reasons section-column">
 				<div class="row">
 					<div class="col">
@@ -118,7 +134,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row progress-section">
 					<div class="col">
 						<div class="progress">
 							<div class="progress-bar bg-success" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%;">
@@ -128,7 +144,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row progress-section">
 					<div class="col">
 						<div class="progress">
 							<div class="progress-info" role="progressbar" aria-valuenow="5" aria-valuemin="0" aria-valuemax="100" style="width:5%;">
@@ -138,7 +154,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row progress-section">
 					<div class="col">
 						<div class="progress">
 							<div class="progress-warning" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width:10%;">
@@ -148,7 +164,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="row">
+				<div class="row progress-section">
 					<div class="col">
 						<div class="progress">
 							<div class="progress-danger" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width:10%;">
@@ -161,7 +177,7 @@
 			</div>
 		</div>
 	</section>
-
+	<!--  ___________FOOTER______________________________ -->
 	<footer class="container-fluid">
 		<div id="footer-details" class="row">
 
@@ -176,7 +192,7 @@
 				<h5 class="uppercase general-sub">Download</h5>
 				<p class="inline-block">
 					Need a printable version of my CV? Download Here
-					<a href="#" target="_blank" class="cv-pdf">
+					<a href="assets/cv/djcv.pdf" target="_blank" class="cv-pdf">
 						<i class="fas fa-download" aria-hidden"true">
 						<span class="sr-only">Download link.</span>
 						</i>
